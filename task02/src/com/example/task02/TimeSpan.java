@@ -76,7 +76,7 @@ public class TimeSpan {
             this.hours--;
         }
 
-        this.hours -= time.getSeconds();
+        this.hours -= time.getHours();
     }
 
 
